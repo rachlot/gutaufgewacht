@@ -21,6 +21,7 @@ const Navbar1 = () => {
           {[
             { name: "Leistungen", href: "/#leistungen" },
             { name: "Team", href: "/team" },
+            { name: "Karriere", href: "/karriere" },
             { name: "Kontakt", href: "/#kontakt" }
           ].map((item) => (
             <motion.div
@@ -83,6 +84,7 @@ const Navbar1 = () => {
               {[
                 { name: "Leistungen", href: "/#leistungen" },
                 { name: "Team", href: "/team" },
+                { name: "Karriere", href: "/karriere" },
                 { name: "Kontakt", href: "/#kontakt" }
               ].map((item, i) => (
                 <motion.div
