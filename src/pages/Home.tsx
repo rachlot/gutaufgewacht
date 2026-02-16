@@ -17,30 +17,24 @@ export default function Home() {
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-16">
           <div className="bg-white rounded-2xl md:rounded-3xl shadow-lg p-6 sm:p-8 md:p-12 lg:p-16">
             <div className="text-center mb-8 sm:mb-12">
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">Die Anästhesie der MCCM stellt sich vor</h2>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">Erstklassige Anästhesie</h2>
               <div className="w-20 sm:w-24 h-1 bg-brand mx-auto rounded-full"></div>
             </div>
 
             <div className="prose prose-sm sm:prose-base md:prose-lg max-w-none text-gray-700 leading-relaxed space-y-4 sm:space-y-6">
               <p className="text-sm sm:text-base">
-                Im Gespräch mit den beiden verantwortlichen Anästhesisten an der MCCM stellen sich Prof. Dr. Leopold Eberhart und Frau Prof. Dr. Astrid Morin gemeinsam vor und erläutern ihre Aufgaben im gesamten Behandlungsprozess und als ärztliche Leitung der Klinik. Beide sind seit 2001 Fachärzte für Anästhesie und haben im Rahmen ihrer umfassende Ausbildung an mehreren großen deutschen Universitätskliniken und Spezial-Schwerpunktkliniken auch noch die Zusatzbezeichnungen Notfallmedizin, spezielle Intensivmedizin, Schmerztherapie und Palliativmedizin erworben.
+                Die KV-übergreifende Berufsausübungsgemeinschaft <span className="font-semibold text-brand">GutAufgewacht</span> wird geleitet von Prof. Dr. Leopold Eberhart und Prof. Dr. Astrid Morin. Beide Anästhesisten sind seit über 20 Jahren Fachärzte für Anästhesie und verfügen über die Zusatzweiterbildung Intensivmedizin, Schmerztherapie, Notfallmedizin und Palliativmedizin.
               </p>
 
               <p className="text-sm sm:text-base">
-                Auf die Bitte hin, in ganz wenigen Worten zusammenzufassen, was ihre Rolle innerhalb der MCCM ist ergreift Eberhart das Wort und bringt es folgendermaßen auf den Punkt: „Wir Anästhesisten sorgen mit unserem Team dafür, dass es Ihnen nach der Operation körperlich und seelisch gut geht und Sie schnellstmöglich hinterher richtig gut geht" und ergänzt „viele Patienten sind überrascht, wie schnell sie wieder fit sind nach der Narkose". Darüber hinaus sind sie noch für die Vertretung des leitenden OP-Koordinators und für erwachsen". Gerade das erfülle die beiden Professoren immer wieder aufs Neue mit Freude. Denn, so bestätige beide Anästhesisten gleichermaßen, es sei ja schließlich ihr Job, einen guten Rahmen zu bestätigen, dass die Anordnungen für Patientensicherheit kompromisslos Komfort für bestätigen, dass eine Operation gut verlaufen ist. „Das sind und auch unsere Mühen", bestätigt Morin, „ständiger Ansporn immer noch besser werden", betont Morin. Dementsprechend sind Vorbeugung und Aufrechterhaltung Denkliniken. Aufrechterhaltung von der ein jeder sicheren Rahmenbedingungen für eine Grundsätzen ein großes Anliegen und ergänzen, „dass alle Patienten sofort nach dem Eingriff essen und trinken dürften und niemand folglich Hunger oder Durst haben muss", ergänzen sie „...kaffee und Aufnahmen der Verkokung der Patientenversorgung und eine entsprechende Ausstattung der besonderen „gibt", betont Morin und fügt dem hinzu Eberhart und ergänzt schmunzelnd „und für die Kinder ein Eis hinterher". Tatsächlich gehören ein großes Aufwachraum, eine entsprechende Pflegestation unter der Ausstattung des Anästhesien wie hochmoderne Beatmungsgeräte, ein hochwertiges Videolaryngoskop oder eine Narkosetiefenmessung zur Ausstattung der Narkose.
+                Klinische und wissenschaftliche Schwerpunkte sind die postoperative Schmerztherapie nach großen Gelenkchirurgie sowie die Optimierung der postoperativen Phase durch Vermeidung von Übelkeit, Kältezittern und Schmerzen. Die Anästhesie ist zertifiziert mit dem Qualitätssiegel „GutAufgewacht". Die MCCM verfügt über eine hochwertige Ausstattung mit modernen Beatmungsgeräten, Videolaryngoskopie und Narkosetiefenmessung und ermöglicht zudem im Bedarfsfall auch eine verlängerte postoperative Überwachung über eine angeschlossene Bettenstation.
               </p>
 
-              <p className="text-sm sm:text-base">
-                Genau das bringt unser Konzept zum Ausdruck: keine Kompromisse bei der Sicherheit und ein großes Augenmerk auf das Wohlühlen unserer Patienten fasst Prof. Morin zusammen. Beide Narkoseärzte arbeiten eng mit einer speziell geschulten Zusammenarbeit mit dem pflegerischen Personal im Betreiben des OP-Zentrums und ihnen als Ärzten. Unsere Wünsche – und die waren durchaus anspruchsvoll – wurden bis ins kleinste Detail umgesetzt. Diskussion-bei, Das ist jetzt in vielen Jahren Klinikalltag eine ganz neue Erfahrung. Wir sind hier extrem gut aufgestellt und können es in jeder Hinsicht mit dem, was wir aus großen deutschen Kliniken kennen, aufnehmen.
-              </p>
-
-              <p className="text-sm sm:text-base">
-                Auf ihre bisherige ärztliche Tätigkeit angesprochen verweisen die beiden auf Tätigkeitsschwerpunkte an der Universität Ulm, dem Rehabilitationskrankenhaus in Ulm und dem dortigen Bundeswehrkrankenhaus sowie später gemeinsam an der Universitätsklinik Marburg. In Ulm waren Eberhart als Facharzt, Oberarzt und als stellvertretender Klinikdirektor. Beide Professoren haben viel geforscht und vieles neue publiziert beziehungsweise patentieren lassen. Beide Professoren haben über Themen wie Patientensicherheit, das Vermeidung von Übelkeit und Erbrechen in der postoperativen Phase, Schmerzmanagement und die Optimierung, der frühen Mobilisierung von Patienten geforscht.
-              </p>
-
-              <p className="text-sm sm:text-base">
-                „Das sind alles Themen, die uns nicht nur akademisch weitergebracht haben, sondern unsere klinische Praxis beeinflussen bis heute", halten die beiden fest und wir es ein freuen Austausch mit vielen anderen Kollegen in europäischen Kliniken waren" betont Eberhart und Morin ergänzt: „So konnten wir immer gegenseitig beeinflussen, die Sorgfalt im Umgang mit den Patienten erhöhen und so letztlich die Qualität unserer neuen Aufgabe bei der MCCM so fortsetzen".
-              </p>
+              <div className="bg-brand-50 p-4 sm:p-6 md:p-8 rounded-xl md:rounded-2xl border-l-4 border-brand mt-6 sm:mt-8">
+                <p className="text-base sm:text-lg italic text-gray-800">
+                  „Wir sind als Anästhesisten stolz, mit einem so exzellenten Team an Operateuren zusammenarbeiten zu dürfen und bieten unseren gemeinsamen Patienten ein höchstes Maß an Komfort bei gleichzeitig maximaler Sicherheit."
+                </p>
+              </div>
             </div>
           </div>
         </section>
