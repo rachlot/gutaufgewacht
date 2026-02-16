@@ -94,11 +94,11 @@ export default function Karriere() {
               </div>
 
               <div className="space-y-4 mb-6">
-                <p className="text-base text-gray-700 mb-8">
+                <p className="text-base text-gray-700 min-h-[120px]">
                   Sie studieren Medizin oder einen verwandten Studiengang und möchten praktische Erfahrungen in der Anästhesiologie sammeln?
                 </p>
 
-                <div className="space-y-3 mt-8">
+                <div className="space-y-3">
                   <h4 className="font-semibold text-gray-900">Das bieten wir:</h4>
                   <ul className="space-y-2 text-sm sm:text-base text-gray-700">
                     <li className="flex items-start">
