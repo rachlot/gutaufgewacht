@@ -127,6 +127,43 @@ export default function Karriere() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
+            className="bg-white rounded-2xl md:rounded-3xl shadow-lg p-6 sm:p-8 md:p-10 lg:p-12 mt-8"
+          >
+            <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">
+              Wer wird gesucht?
+            </h3>
+
+            <p className="text-base sm:text-lg text-gray-700 mb-6">
+              Studentische Hilfskraft für Personal-Finanzadministration, Rechnungswesen, sowie Praxisorganisation
+            </p>
+
+            <ul className="space-y-3 text-sm sm:text-base text-gray-700 mb-6">
+              <li className="flex items-start">
+                <span className="text-brand mr-2">•</span>
+                <span>freie Zeiteinteilung, keine Präsenzpflicht</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-brand mr-2">•</span>
+                <span>EDV-Ausrüstung kann gestellt werden</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-brand mr-2">•</span>
+                <span>Vorerfahrung / -kenntnisse im Bereich der <strong>steuerberatenden Berufe, Bankwesen, kaufmännische Vorausbildung</strong> oder auch <strong>MFA-Ausbildung</strong> erwünscht</span>
+              </li>
+            </ul>
+
+            <p className="text-lg sm:text-xl font-semibold text-gray-900 mt-6">
+              Anstellung auf Stundenbasis
+            </p>
+            <p className="text-base text-gray-700">
+              (Werkstudentenvertrag)
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.7 }}
             className="bg-white rounded-2xl md:rounded-3xl shadow-lg p-6 sm:p-8 md:p-12 lg:p-16 mt-8"
           >
             <div className="text-center">
