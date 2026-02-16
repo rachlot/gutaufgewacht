@@ -66,7 +66,7 @@ export default function Karriere() {
                     </li>
                     <li className="flex items-start">
                       <span className="text-brand mr-2">•</span>
-                      <span>Zusammenarbeit mit erfahrenen Fachärzten</span>
+                      <span>Zusammenarbeit mit erfahrenen Fachärzt:innen</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-brand mr-2">•</span>
@@ -89,7 +89,7 @@ export default function Karriere() {
             >
               <div className="mb-6">
                 <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
-                  Werkstudenten m/w/d
+                  Werkstudierende m/w/d
                 </h3>
               </div>
 
@@ -111,7 +111,7 @@ export default function Karriere() {
                     </li>
                     <li className="flex items-start">
                       <span className="text-brand mr-2">•</span>
-                      <span>Mentoring durch erfahrene Professoren</span>
+                      <span>Mentoring durch erfahrene Professor:innen</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-brand mr-2">•</span>
@@ -130,7 +130,7 @@ export default function Karriere() {
             className="bg-white rounded-2xl md:rounded-3xl shadow-lg p-6 sm:p-8 md:p-10 lg:p-12 mt-8"
           >
             <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">
-              Wer wird gesucht?
+              Administrative Tätigkeit
             </h3>
 
             <p className="text-base sm:text-lg text-gray-700 mb-6">
