@@ -46,18 +46,10 @@ export default function Team() {
                   <div className="space-y-4">
                     <div className="block">
                       <div className="text-brand font-semibold text-sm sm:text-base mb-1">
-                        05/1986
+                        04/2004 – 11/2006
                       </div>
                       <div className="text-gray-700 text-sm sm:text-base">
-                        Abitur am Gymnasium Wertingen
-                      </div>
-                    </div>
-                    <div className="block">
-                      <div className="text-brand font-semibold text-sm sm:text-base mb-1">
-                        10/1988 – 04/1994
-                      </div>
-                      <div className="text-gray-700 text-sm sm:text-base">
-                        Studium der Humanmedizin an der Universität Ulm
+                        Masterstudium „Management von Gesundheits- und Sozialeinrichtungen" an den Universitäten Kaiserslautern und Witten-Herdecke, Abschluss zum Master of Arts (M.A.)
                       </div>
                     </div>
                     <div className="block">
@@ -78,10 +70,18 @@ export default function Team() {
                     </div>
                     <div className="block">
                       <div className="text-brand font-semibold text-sm sm:text-base mb-1">
-                        04/2004 – 11/2006
+                        10/1988 – 04/1994
                       </div>
                       <div className="text-gray-700 text-sm sm:text-base">
-                        Masterstudium „Management von Gesundheits- und Sozialeinrichtungen" an den Universitäten Kaiserslautern und Witten-Herdecke, Abschluss zum Master of Arts (M.A.)
+                        Studium der Humanmedizin an der Universität Ulm
+                      </div>
+                    </div>
+                    <div className="block">
+                      <div className="text-brand font-semibold text-sm sm:text-base mb-1">
+                        05/1986
+                      </div>
+                      <div className="text-gray-700 text-sm sm:text-base">
+                        Abitur am Gymnasium Wertingen
                       </div>
                     </div>
                   </div>
@@ -93,19 +93,11 @@ export default function Team() {
                   </h3>
                   <div className="space-y-4">
                     <div className="bg-brand-50 p-4 sm:p-6 rounded-xl border-l-4 border-brand">
-                      <h4 className="font-bold text-gray-900 mb-4 text-base sm:text-lg">Universität Ulm</h4>
+                      <h4 className="font-bold text-gray-900 mb-4 text-base sm:text-lg">Medical Center Clinic Marburg</h4>
                       <div className="space-y-3 text-sm sm:text-base text-gray-700">
                         <div className="block">
-                          <div className="font-semibold mb-1">07/1995 – 12/1996</div>
-                          <div>Arzt im Praktikum</div>
-                        </div>
-                        <div className="block">
-                          <div className="font-semibold mb-1">01/1997 – 08/2001</div>
-                          <div>Wissenschaftlicher Mitarbeiter (Assistenzarzt) an der Klinik für Anästhesiologie und Intensivmedizin</div>
-                        </div>
-                        <div className="block">
-                          <div className="font-semibold mb-1">11/1999</div>
-                          <div>Facharzt für Anästhesiologie</div>
+                          <div className="font-semibold mb-1">seit 07/2022</div>
+                          <div>Ärztlicher Leiter der Medical Center Clinic Marburg</div>
                         </div>
                       </div>
                     </div>
@@ -114,34 +106,42 @@ export default function Team() {
                       <h4 className="font-bold text-gray-900 mb-4 text-base sm:text-lg">Philipps-Universität Marburg</h4>
                       <div className="space-y-3 text-sm sm:text-base text-gray-700">
                         <div className="block">
-                          <div className="font-semibold mb-1">seit 09/2001</div>
-                          <div>Wissenschaftlicher Mitarbeiter (Oberarzt) an der Klinik für Anästhesie und Intensivtherapie</div>
-                        </div>
-                        <div className="block">
-                          <div className="font-semibold mb-1">05/2003</div>
-                          <div>Habilitation für das Fach Anästhesiologie zum Thema „Strategien zur Minimierung von Übelkeit und Erbrechen in der postoperativen Phase"</div>
-                        </div>
-                        <div className="block">
-                          <div className="font-semibold mb-1">seit 07/2005</div>
-                          <div>Stellvertretender Direktor der Klinik</div>
+                          <div className="font-semibold mb-1">09/2007</div>
+                          <div>Ernennung zum apl-Professor</div>
                         </div>
                         <div className="block">
                           <div className="font-semibold mb-1">03/2006</div>
                           <div>Ruf auf die Professur „Klinische und epidemiologische Outcomeforschung in der Anästhesiologie"</div>
                         </div>
                         <div className="block">
-                          <div className="font-semibold mb-1">09/2007</div>
-                          <div>Ernennung zum apl-Professor</div>
+                          <div className="font-semibold mb-1">seit 07/2005</div>
+                          <div>Stellvertretender Direktor der Klinik</div>
+                        </div>
+                        <div className="block">
+                          <div className="font-semibold mb-1">05/2003</div>
+                          <div>Habilitation für das Fach Anästhesiologie zum Thema „Strategien zur Minimierung von Übelkeit und Erbrechen in der postoperativen Phase"</div>
+                        </div>
+                        <div className="block">
+                          <div className="font-semibold mb-1">seit 09/2001</div>
+                          <div>Wissenschaftlicher Mitarbeiter (Oberarzt) an der Klinik für Anästhesie und Intensivtherapie</div>
                         </div>
                       </div>
                     </div>
 
                     <div className="bg-brand-50 p-4 sm:p-6 rounded-xl border-l-4 border-brand">
-                      <h4 className="font-bold text-gray-900 mb-4 text-base sm:text-lg">Medical Center Clinic Marburg</h4>
+                      <h4 className="font-bold text-gray-900 mb-4 text-base sm:text-lg">Universität Ulm</h4>
                       <div className="space-y-3 text-sm sm:text-base text-gray-700">
                         <div className="block">
-                          <div className="font-semibold mb-1">seit 07/2022</div>
-                          <div>Ärztlicher Leiter der Medical Center Clinic Marburg</div>
+                          <div className="font-semibold mb-1">11/1999</div>
+                          <div>Facharzt für Anästhesiologie</div>
+                        </div>
+                        <div className="block">
+                          <div className="font-semibold mb-1">01/1997 – 08/2001</div>
+                          <div>Wissenschaftlicher Mitarbeiter (Assistenzarzt) an der Klinik für Anästhesiologie und Intensivmedizin</div>
+                        </div>
+                        <div className="block">
+                          <div className="font-semibold mb-1">07/1995 – 12/1996</div>
+                          <div>Arzt im Praktikum</div>
                         </div>
                       </div>
                     </div>
@@ -179,10 +179,10 @@ export default function Team() {
                   <div className="space-y-4">
                     <div className="block">
                       <div className="text-brand font-semibold text-sm sm:text-base mb-1">
-                        seit 02/2005
+                        seit 01/2022
                       </div>
                       <div className="text-gray-700 text-sm sm:text-base">
-                        Prüfer für Facharztprüfungen „Anästhesiologie" und „spezielle anästhesiologische Intensivmedizin" bei der Landesärztekammer Hessen
+                        Gründung der KV-übergreifenden Berufsausübungsgemeinschaft „GutAufgewacht"
                       </div>
                     </div>
                     <div className="block">
@@ -195,18 +195,18 @@ export default function Team() {
                     </div>
                     <div className="block">
                       <div className="text-brand font-semibold text-sm sm:text-base mb-1">
-                        seit 04/2002
+                        seit 02/2005
                       </div>
                       <div className="text-gray-700 text-sm sm:text-base">
-                        Mitglied im Arbeitskreis „Qualitätsmanagement und Ökonomie" der DGAI/BDA, Arbeitsgruppenleiter des Projekts „Evaluierter Fragebogen Anästhesie (EFA)"
+                        Prüfer für Facharztprüfungen „Anästhesiologie" und „spezielle anästhesiologische Intensivmedizin" bei der Landesärztekammer Hessen
                       </div>
                     </div>
                     <div className="block">
                       <div className="text-brand font-semibold text-sm sm:text-base mb-1">
-                        seit 01/2022
+                        seit 04/2002
                       </div>
                       <div className="text-gray-700 text-sm sm:text-base">
-                        Gründung der KV-übergreifenden Berufsausübungsgemeinschaft „GutAufgewacht"
+                        Mitglied im Arbeitskreis „Qualitätsmanagement und Ökonomie" der DGAI/BDA, Arbeitsgruppenleiter des Projekts „Evaluierter Fragebogen Anästhesie (EFA)"
                       </div>
                     </div>
                   </div>
