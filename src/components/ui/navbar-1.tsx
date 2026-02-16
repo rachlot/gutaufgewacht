@@ -19,9 +19,9 @@ const Navbar1 = () => {
         {/* Desktop Navigation - Centered */}
         <nav className="hidden md:flex items-center justify-center space-x-8 flex-1">
           {[
-            { name: "Leistungen", href: "#leistungen" },
-            { name: "Team", href: "#team" },
-            { name: "Kontakt", href: "#kontakt" }
+            { name: "Leistungen", href: "/#leistungen" },
+            { name: "Team", href: "/team" },
+            { name: "Kontakt", href: "/#kontakt" }
           ].map((item) => (
             <motion.div
               key={item.name}
@@ -81,9 +81,9 @@ const Navbar1 = () => {
             </motion.button>
             <div className="flex flex-col space-y-8 sm:space-y-10">
               {[
-                { name: "Leistungen", href: "#leistungen" },
-                { name: "Team", href: "#team" },
-                { name: "Kontakt", href: "#kontakt" }
+                { name: "Leistungen", href: "/#leistungen" },
+                { name: "Team", href: "/team" },
+                { name: "Kontakt", href: "/#kontakt" }
               ].map((item, i) => (
                 <motion.div
                   key={item.name}
