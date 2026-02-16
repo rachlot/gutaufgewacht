@@ -13,7 +13,7 @@ const Navbar1 = () => {
       <div className="flex items-center justify-between px-4 sm:px-5 md:px-6 py-2.5 sm:py-3 bg-white rounded-full shadow-lg w-full max-w-4xl relative pointer-events-auto">
         {/* Logo */}
         <div className="flex items-center">
-          <img src="/logo_mccm_final.png" alt="Medical Center Clinic Marburg" className="h-8 sm:h-10 md:h-12 w-auto" />
+          <img src="/Logo_gutaufgewacht_neu.jpg" alt="Medical Center Clinic Marburg" className="h-8 sm:h-10 md:h-12 w-auto" />
         </div>
 
         {/* Desktop Navigation - Centered */}
