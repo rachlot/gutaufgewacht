@@ -48,13 +48,13 @@ export default function Karriere() {
             >
               <div className="mb-6">
                 <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
-                  Medizinische Fachangestellte (MFA) m/w/d
+                  MFA / OTA / ATA / Notfallsanitäter:in m/w/d
                 </h3>
               </div>
 
               <div className="space-y-4 mb-6">
                 <p className="text-base text-gray-700">
-                  Wir suchen engagierte Medizinische Fachangestellte, die unser Team im OP und in der postoperativen Überwachung verstärken möchten.
+                  Wir suchen engagierte Fachkräfte: Medizinische Fachangestellte (MFA), Operationstechnische Assistenten (OTA), Anästhesietechnische Assistenten (ATA), Notfallsanitäter:in, Rettungsassistent:in, Rettungssanitäter:in sowie MFA-Azubis, die unser Team im OP und in der postoperativen Überwachung verstärken möchten.
                 </p>
 
                 <div className="space-y-3">
