@@ -2,8 +2,6 @@ import { Hero } from '@/components/ui/animated-hero';
 import { Navbar1 } from '@/components/ui/navbar-1';
 import StickyFooter from '@/components/ui/footer';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
-import { TrustSection } from '@/components/ui/trust-section';
-import { ProcessTimeline } from '@/components/ui/process-timeline';
 import { ServicesSection } from '@/components/ui/services-section';
 import { TeamSection } from '@/components/ui/team-section';
 
@@ -20,7 +18,7 @@ export default function Home() {
         <section className="max-w-7xl mx-auto px-6 sm:px-8 py-12 sm:py-16">
           <div className="bg-white rounded-3xl shadow-sm p-8 sm:p-12 md:p-16 lg:p-20 border border-gray-100">
             <div className="text-center mb-12">
-              <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-semibold text-gray-900 mb-6">
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-sans font-semibold text-gray-900 mb-6">
                 Erstklassige Anästhesie
               </h2>
               <div className="w-24 h-1 bg-brand mx-auto rounded-full"></div>
@@ -52,17 +50,13 @@ export default function Home() {
           </div>
         </section>
 
-        <TrustSection />
-
-        <ProcessTimeline />
-
         <ServicesSection />
 
         <TeamSection />
 
         <section id="faq" className="max-w-7xl mx-auto px-6 sm:px-8 py-16 sm:py-24">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-semibold text-gray-900 mb-6">
+            <h2 className="text-4xl sm:text-5xl md:text-6xl font-sans font-semibold text-gray-900 mb-6">
               Häufig gestellte Fragen
             </h2>
             <div className="w-24 h-1 bg-brand mx-auto rounded-full"></div>
