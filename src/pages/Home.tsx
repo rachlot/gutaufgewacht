@@ -14,6 +14,22 @@ export default function Home() {
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-8">
           <Hero />
         </section>
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-16">
+          <div className="text-center mb-6 sm:mb-8">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3">Das MVZ GutAufgewacht</h2>
+            <div className="w-16 sm:w-20 h-1 bg-brand mx-auto rounded-full"></div>
+          </div>
+          <div className="relative w-full rounded-2xl md:rounded-3xl overflow-hidden shadow-2xl bg-black" style={{ paddingBottom: "56.25%" }}>
+            <iframe
+              src="https://www.youtube.com/embed/EKFhFv8QFd8?rel=0&modestbranding=1"
+              title="GutAufgewacht MVZ Marburg"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="absolute inset-0 w-full h-full"
+            />
+          </div>
+        </section>
+
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-16">
           <div className="bg-white rounded-2xl md:rounded-3xl shadow-lg p-6 sm:p-8 md:p-12 lg:p-16">
             <div className="text-center mb-8 sm:mb-12">
