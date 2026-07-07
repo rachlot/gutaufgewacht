@@ -54,11 +54,11 @@ export default function Team() {
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 mb-12">
               <div className="lg:w-1/3">
                 <div className="sticky top-28">
-                  <div className="rounded-2xl overflow-hidden shadow-lg mb-6">
+                  <div className="w-48 h-48 sm:w-56 sm:h-56 rounded-full overflow-hidden shadow-xl mb-6 mx-auto border-4 border-brand/20">
                     <img
                       src="/img_9408.jpg"
                       alt="Prof. Dr. med. Leopold H. J. Eberhart"
-                      className="w-full h-auto"
+                      className="w-full h-full object-cover object-top"
                     />
                   </div>
                   <div className="space-y-4">
