@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Hero } from '@/components/ui/animated-hero';
 import { Navbar1 } from '@/components/ui/navbar-1';
 import { AnimatedTestimonials } from '@/components/ui/animated-testimonials';
@@ -6,6 +7,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { FeaturesSection } from '@/components/ui/feature';
 
 export default function Home() {
+  const [videoActive, setVideoActive] = useState(false);
   const videoId = 'EKFhFv8QFd8';
 
   return (
@@ -22,30 +24,38 @@ export default function Home() {
             <div className="w-16 sm:w-20 h-1 bg-brand mx-auto rounded-full"></div>
           </div>
           <div className="relative w-full rounded-2xl md:rounded-3xl overflow-hidden shadow-2xl bg-black" style={{ paddingBottom: "56.25%" }}>
-            <a
-              href={`https://www.youtube.com/watch?v=${videoId}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="absolute inset-0 w-full h-full group"
-              aria-label="Video auf YouTube ansehen"
-            >
-              <img
-                src={`https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg`}
-                alt="GutAufgewacht MVZ Marburg Video"
-                className="w-full h-full object-cover"
-                onError={(e) => {
-                  (e.target as HTMLImageElement).src = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
-                }}
+            {videoActive ? (
+              <iframe
+                src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0&modestbranding=1&autoplay=1`}
+                title="GutAufgewacht MVZ Marburg"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="absolute inset-0 w-full h-full"
               />
-              <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors duration-300" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-16 h-16 sm:w-20 sm:h-20 bg-red-600 group-hover:bg-red-500 rounded-full flex items-center justify-center shadow-2xl transition-all duration-300 group-hover:scale-110">
-                  <svg className="w-7 h-7 sm:w-9 sm:h-9 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
+            ) : (
+              <button
+                onClick={() => setVideoActive(true)}
+                className="absolute inset-0 w-full h-full group focus:outline-none"
+                aria-label="Video abspielen"
+              >
+                <img
+                  src={`https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg`}
+                  alt="GutAufgewacht MVZ Marburg Video"
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+                  }}
+                />
+                <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors duration-300" />
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="w-16 h-16 sm:w-20 sm:h-20 bg-red-600 group-hover:bg-red-500 rounded-full flex items-center justify-center shadow-2xl transition-all duration-300 group-hover:scale-110">
+                    <svg className="w-7 h-7 sm:w-9 sm:h-9 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                  </div>
                 </div>
-              </div>
-            </a>
+              </button>
+            )}
           </div>
         </section>
 
